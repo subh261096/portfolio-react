@@ -2,6 +2,9 @@
 
 # dependencies
 /node_modules
+/parcel_react/node_modules
+/parcel_react/.parcel-cache
+/parcel_react/dist
 /.pnp
 .pnp.js
 
