@@ -15,6 +15,7 @@ export default class Title extends Component {
   }
   componentWillUnmount(){
     clearInterval(this.titleInterval);
+    console.log("component will unmount");
   };
   animateTitle(){
     this.titleInterval = setInterval(()=>{
